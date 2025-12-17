@@ -86,7 +86,7 @@ main li,
 }
 
 .logo {
-  height: 86px;
+  height: 130px;
   width: auto;
   object-fit: contain;
 }
@@ -424,6 +424,7 @@ button[type="submit"] {
 #contact p {
   max-width: none;
 }
+
 
 
 
