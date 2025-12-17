@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Member Login — NARBLA</title>
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container header-inner">
+        <div class="brand centered-logo">
+          <img src="narbla-logo.png" alt="NARBLA logo" class="logo" />
+          <div class="brand-text">
+            <h1>NARBLA</h1>
+            <p class="tagline">Connecting Members Nationwide</p>
+          </div>
+        </div>
+
+        <nav class="main-nav" aria-label="Primary">
+          <ul class="nav-list">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="conferences.html">Conferences</a></li>
+            <li><a href="archive.html">Archives</a></li>
+            <li><a href="login.html" class="active">Member Login</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main class="container auth">
+      <div class="auth-card">
+        <h2>Member Sign In</h2>
+        <p>
+          Existing members can sign in below. New members should register first.
+        </p>
+
+        <form id="loginForm" class="form">
+          <label>Email<input type="email" name="email" required /></label>
+          <label
+            >Password<input type="password" name="password" required
+          /></label>
+
+          <div class="auth-actions">
+            <a href="register.html" class="btn">Register</a>
+            <button type="submit" class="btn btn-secondary">Sign In</button>
+          </div>
+        </form>
+
+        <hr />
+        <p class="small">
+          For secure login, use <strong>Firebase Authentication</strong> or your
+          own server. See README for setup instructions.
+        </p>
+      </div>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <p>&copy; <span id="year"></span> NARBLA</p>
+      </div>
+    </footer>
+
+    <button id="backToTop" title="Back to Top">↑</button>
+    <script src="js/app.js"></script>
+  </body>
+</html>
