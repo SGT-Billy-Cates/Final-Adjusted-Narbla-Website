@@ -420,6 +420,12 @@ button[type="submit"] {
 .about-centered li {
   margin: 6px 0;
 }
+/* Allow full-width text in Contact section */
+#contact p {
+  max-width: none;
+}
+
+
 
 
 
