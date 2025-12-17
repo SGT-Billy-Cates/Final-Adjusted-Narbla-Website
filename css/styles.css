@@ -424,6 +424,27 @@ button[type="submit"] {
 .about-centered li {
   margin: 6px 0;
 }
+/* Force About section content to be truly centered */
+.about-centered {
+  text-align: center;
+}
+
+/* Center lists cleanly */
+.about-centered ul {
+  list-style: none;
+  padding-left: 0;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* THIS is the missing piece — centers the buttons */
+.about-centered .button-row {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+}
+
+
 
 
 
