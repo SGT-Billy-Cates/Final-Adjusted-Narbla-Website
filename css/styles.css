@@ -411,19 +411,7 @@ button[type="submit"] {
 #contact p {
   max-width: none;
 }
-/* Center all text in About NARBLA section */
-.about-centered {
-  text-align: center;
-}
 
-.about-centered ul {
-  list-style: none;
-  padding-left: 0;
-}
-
-.about-centered li {
-  margin: 6px 0;
-}
 /* Force About section content to be truly centered */
 .about-centered {
   text-align: center;
@@ -443,6 +431,7 @@ button[type="submit"] {
   justify-content: center;
   gap: 12px;
 }
+
 
 
 
