@@ -431,6 +431,25 @@ button[type="submit"] {
   justify-content: center;
   gap: 12px;
 }
+/* TRUE centering for About section content */
+#about-narbla.about-centered p,
+#about-narbla.about-centered li {
+  max-width: none;         /* remove the 72ch constraint */
+  margin-left: auto;       /* center the block */
+  margin-right: auto;
+}
+
+#about-narbla.about-centered ul {
+  padding-left: 0;
+}
+.hero-image-wide {
+  width: 100%;
+  max-width: 520px;
+  height: auto;
+  object-fit: cover;
+}
+
+
 
 
 
