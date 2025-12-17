@@ -407,23 +407,11 @@ button[type="submit"] {
   margin-left: auto;
   margin-right: auto;
 }
-/* Center all text in About NARBLA section */
-.about-centered {
-  text-align: center;
-}
-
-.about-centered ul {
-  list-style: none;
-  padding-left: 0;
-}
-
-.about-centered li {
-  margin: 6px 0;
-}
 /* Allow full-width text in Contact section */
 #contact p {
   max-width: none;
 }
+
 
 
 
